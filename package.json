@@ -1,0 +1,58 @@
+{
+    "name": "mclibre-org-html-css-keymap",
+    "displayName": "mclibre.org HTML+CSS Atajos de teclado",
+    "description": "Atajos de teclado aconsejados para seguir el curso HTML+CSS de mclibre.org",
+    "version": "0.1.0",
+    "publisher": "BartolomeSintes",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "icon": "mclibre-html-css-logo.png",
+    "homepage": "https://github.com/BartolomeSintes/mclibre-org-vscode-html-css-keymap/blob/master/README.md",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BartolomeSintes/mclibre-org-vscode-html-css-keymap"
+    },
+    "contributes": {
+        "keybindings": [
+    {
+        "key": "ctrl+alt+f",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Abrir en Firefox"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Abrir en Chrome"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "livePreview.start.internalPreview.atFile"
+    },
+    {
+        "key": "alt+shift+c alt+shift+f",
+        "command": "csscomb.execute"
+    },
+    {
+        "key": "ctrl+alt+e ctrl+alt+b",
+        "command": "editor.emmet.action.removeTag"
+    },
+    {
+        "key": "ctrl+alt+e ctrl+alt+t",
+        "command": "editor.emmet.action.updateImageSize"
+    },
+    {
+        "key": "ctrl+alt+e ctrl+alt+s",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "ctrl+alt+e ctrl+alt+i",
+        "command": "editor.emmet.action.balanceIn"
+    }
+        ]
+    }
+}
