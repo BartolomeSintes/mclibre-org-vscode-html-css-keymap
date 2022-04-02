@@ -2,7 +2,7 @@
     "name": "mclibre-org-html-css-keymap",
     "displayName": "mclibre.org HTML+CSS Atajos de teclado",
     "description": "Atajos de teclado aconsejados para seguir el curso HTML+CSS de mclibre.org",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "publisher": "BartolomeSintes",
     "engines": {
         "vscode": "^1.56.0"
@@ -10,7 +10,7 @@
     "categories": [
         "Keymaps"
     ],
-    "icon": "mclibre-html-css-logo.png",
+    "icon": "mclibre-html-css-keymap-logo.png",
     "homepage": "https://github.com/BartolomeSintes/mclibre-org-vscode-html-css-keymap/blob/master/README.md",
     "license": "MIT",
     "repository": {
