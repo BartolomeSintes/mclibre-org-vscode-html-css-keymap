@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "mclibre-org-html-css-extension-pack" extension pack will be documented in this file.
 
-## 0.5 (2202-04-07)
+## 0.7.0 (2202-04-07)
 - Atajo Ctrl+Alt+p sirve para arrancar o parar LivePreview
 
 ## 0.4.1 (2022-04-02)
