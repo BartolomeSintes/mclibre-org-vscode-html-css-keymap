@@ -41,18 +41,24 @@
             },
             {
                 "key": "alt+shift+c alt+shift+f",
-                "command": "csscomb.execute"
+                "command": "csscomb.execute",
+                "when": "isWindows"
+            },
+            {
+                "key": "ctrl+shift+c ctrl+shift+i",
+                "command": "csscomb.execute",
+                "when": "isLinux"
             },
             {
                 "key": "ctrl+alt+e ctrl+alt+b",
                 "command": "editor.emmet.action.removeTag"
             },
             {
-                "key": "ctrl+alt+e ctrl+alt+t",
+                "key": "ctrl+alt+e ctrl+alt+s",
                 "command": "editor.emmet.action.updateImageSize"
             },
             {
-                "key": "ctrl+alt+e ctrl+alt+s",
+                "key": "ctrl+alt+e ctrl+alt+o",
                 "command": "editor.emmet.action.balanceOut"
             },
             {
